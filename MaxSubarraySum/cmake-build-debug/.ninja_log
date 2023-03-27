@@ -1,0 +1,17 @@
+# ninja log v5
+0	448	7016325920679255	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+450	586	7016325921987994	MaxSubarraySum.exe	91e505141ecd3cf0
+2	456	7016326659050072	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+457	563	7016326660069742	MaxSubarraySum.exe	91e505141ecd3cf0
+2	401	7016327047395348	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+401	500	7016327048345416	MaxSubarraySum.exe	91e505141ecd3cf0
+2	411	7016328190335953	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+412	517	7016328191347996	MaxSubarraySum.exe	91e505141ecd3cf0
+2	403	7016330167309595	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+403	503	7016330168268703	MaxSubarraySum.exe	91e505141ecd3cf0
+2	410	7016330348416385	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+410	508	7016330349362888	MaxSubarraySum.exe	91e505141ecd3cf0
+2	416	7016341960781478	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+416	542	7016341962009901	MaxSubarraySum.exe	91e505141ecd3cf0
+2	673	7016344984804634	CMakeFiles/MaxSubarraySum.dir/main.cpp.obj	f39f17b74ee17683
+673	894	7016344986970316	MaxSubarraySum.exe	91e505141ecd3cf0
