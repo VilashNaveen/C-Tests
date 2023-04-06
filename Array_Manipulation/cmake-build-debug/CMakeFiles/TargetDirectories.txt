@@ -1,3 +1,0 @@
-E:/testingPrograms/CS labs/Array_Manipulation/cmake-build-debug/CMakeFiles/Array_Manipulation.dir
-E:/testingPrograms/CS labs/Array_Manipulation/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/testingPrograms/CS labs/Array_Manipulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

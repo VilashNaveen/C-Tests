@@ -1,0 +1,42 @@
+void QuickSort(int arr[], int start, int end) {
+    if (start >= end) {
+        return;
+    }
+
+    // 1. Use a randomized pivot
+    int pivotIndex = start + rand() % (end - start + 1);
+    int pivot = arr[pivotIndex];
+    int temp = arr[end];
+    arr[end] = arr[pivotIndex];
+    arr[pivotIndex] = temp;
+
+    // 2. Use insertion sort for small subarrays
+    if (end - start + 1 < 10) {
+        InsertionSort(arr, start, end);
+        return;
+    }
+
+    int i = start - 1;
+    int j = start;
+    int k = end;
+    while (j <= k) {
+        if (arr[j] < pivot) {
+            i++;
+            temp = arr[j];
+            arr[j] = arr[i];
+            arr[i] = temp;
+            j++;
+        } else if (arr[j] > pivot) {
+            temp = arr[j];
+            arr[j] = arr[k];
+            arr[k] = temp;
+            k--;
+        } else {
+            j++;
+        }
+    }
+
+    // 3. Use a three-way partitioning scheme
+    QuickSort(arr, start, i - 1);
+    QuickSort(arr, k + 1, end);
+}

@@ -1,3 +1,0 @@
-E:/testingPrograms/CPP tests/String_Parser/cmake-build-debug/CMakeFiles/String_Parser.dir
-E:/testingPrograms/CPP tests/String_Parser/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/testingPrograms/CPP tests/String_Parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir

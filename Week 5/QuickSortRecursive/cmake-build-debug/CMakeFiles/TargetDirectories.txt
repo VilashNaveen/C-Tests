@@ -1,0 +1,3 @@
+E:/testingPrograms/C-Tests/Week 5/QuickSortRecursive/cmake-build-debug/CMakeFiles/QuickSortRecursive.dir
+E:/testingPrograms/C-Tests/Week 5/QuickSortRecursive/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/testingPrograms/C-Tests/Week 5/QuickSortRecursive/cmake-build-debug/CMakeFiles/rebuild_cache.dir

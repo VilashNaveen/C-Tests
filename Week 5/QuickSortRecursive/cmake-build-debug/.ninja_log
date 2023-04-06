@@ -1,0 +1,25 @@
+# ninja log v5
+0	495	7019384213208446	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+497	662	7019384214831807	QuickSortRecursive.exe	219af7a8f18be0c9
+3	420	7019386333877710	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+420	519	7019386334827227	QuickSortRecursive.exe	219af7a8f18be0c9
+2	433	7019386810688815	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+434	535	7019386811663716	QuickSortRecursive.exe	219af7a8f18be0c9
+2	437	7019387062120100	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+437	533	7019387063041126	QuickSortRecursive.exe	219af7a8f18be0c9
+2	448	7019387515827426	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+448	547	7019387516787632	QuickSortRecursive.exe	219af7a8f18be0c9
+3	415	7019387595243609	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+415	511	7019387596164061	QuickSortRecursive.exe	219af7a8f18be0c9
+3	423	7019387858704879	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+423	519	7019387859629028	QuickSortRecursive.exe	219af7a8f18be0c9
+2	407	7019388487882583	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+407	505	7019388488825649	QuickSortRecursive.exe	219af7a8f18be0c9
+2	450	7019389890992181	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+451	560	7019389892053645	QuickSortRecursive.exe	219af7a8f18be0c9
+3	645	7019571611854231	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+646	809	7019571613443275	QuickSortRecursive.exe	219af7a8f18be0c9
+2	641	7019797946617193	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+641	1883	7019797959010692	QuickSortRecursive.exe	219af7a8f18be0c9
+3	476	7019798263943423	CMakeFiles/QuickSortRecursive.dir/main.cpp.obj	5121a41fc48e44aa
+477	577	7019798264910635	QuickSortRecursive.exe	219af7a8f18be0c9
