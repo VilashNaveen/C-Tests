@@ -3,7 +3,8 @@ using namespace std;
 
 struct node {
   int key;
-  struct node *left , *right;
+  struct node *left = nullptr;
+  struct node *right = nullptr;
 };
 
 // Inorder traversal
@@ -21,8 +22,6 @@ struct node *insertNode(struct node *node, int key) {
     if (node == nullptr) {
         struct node *newNode = new struct node;
         newNode->key = key;
-        newNode->left = nullptr;
-        newNode->right = nullptr;
         node = newNode;
     }
     else if (node->key <= key) {
@@ -101,7 +100,11 @@ int main() {
         return 0;
     }
   }
-  
-  traverseInOrder(root);
 
+  traverseInOrder(root);
+  int arr[] = {1,2,3,4,5,5};
+  cout << &arr << " " << &arr[0] << " " << &arr[1];
+  cout << "\n";
+  float arr1[] = {1.0,2.66,4.66};
+  cout << &arr1 << " " << &arr1[0] << " " << &arr1[1];
 }
