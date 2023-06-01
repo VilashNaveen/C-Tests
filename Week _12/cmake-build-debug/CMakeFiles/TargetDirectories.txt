@@ -1,0 +1,3 @@
+E:/testingPrograms/C-Tests/Week _12/cmake-build-debug/CMakeFiles/Week__12.dir
+E:/testingPrograms/C-Tests/Week _12/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/testingPrograms/C-Tests/Week _12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
