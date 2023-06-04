@@ -30,12 +30,24 @@ void djisktra(vector<vector<int>> &cityMap, int node, vector<int> &minDistances,
     }
 }
 
-vector<int> djikstra_Algorithm(vector<vector<int>> cityMap, int startNode, int nodeNum) {
+vector<int> minDistance(vector<vector<int>> cityMap, int startNode, int nodeNum) {
     vector<int> minDistances(nodeNum, INT_MAX);
     minDistances[startNode] = 0;
     unordered_set<int> visited;
     djisktra(cityMap, startNode, minDistances, visited);
     return minDistances;
+}
+void find_Average_distances(vector<vector<int>> cityMap) {
+    for (int i = 0; i < cityMap.size(); i++) {
+        double sum = 0;
+        cout << "from City " << i << "--> " ;
+        vector vec = minDistance(cityMap,i,cityMap.size());
+        for (int k = 0;k < vec.size(); k++) {
+            cout << vec[k] << " ";
+            sum += vec[k];
+        }
+        cout << "Average :- "  << sum/5 << endl;
+    }
 }
 
 int main() {
@@ -46,19 +58,7 @@ int main() {
                                    {15, 0, 5, 0, 0, 0},
                                    {5, 0, 0, 20, 0, 0}};
 
-    for (int i = 0; i< cityMap.size(); i++) {
-        int sum = 0;
-        vector<int> vec =  djikstra_Algorithm(cityMap, i, 6);
-        for (auto num: vec) {
-            sum += num;
-        }
-        cout << "from City " << i << " " << "--> ";
-        for (int j = 0; j < cityMap.size(); j++) {
-            cout << vec[j] << " ";
-        }
-        cout << "total distance --> " << sum  ;
-        cout << endl;
-    }
+    find_Average_distances(cityMap);
 
     return 0;
 }
